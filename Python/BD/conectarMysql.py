@@ -3,7 +3,7 @@
 import MySQLdb
 try:
     con = MySQLdb.connect(host='localhost', user='admin',
-                          passwd='Italofilho', db='projetos')
+                          passwd='Italofilho', db='projeto')
     cur = con.cursor()
 except Exception as e:
     print ("Erro {} ".format(e))
