@@ -17,7 +17,7 @@ public class Matrizes {
                 System.out.print(mat + " ");
             }
             System.out.println();
-        }
+        }       //utilizando o for normal 
 //        for (lin = 0; lin < 5; lin++) {
 //            for (col = 0; col < 5; col++) {
 //                System.out.print(matrizes[lin][col]);
