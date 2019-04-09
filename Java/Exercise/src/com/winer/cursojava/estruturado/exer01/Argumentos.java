@@ -1,21 +1,8 @@
-/*
-Exemplo de uma construção basica em Java
-
-https://docs.oracle.com/javase/8/docs/api/ --> site java detalhamento de classes
-
-/*
-Fazendo uma aplicação para inserção de nome e idade, sendo que esses
-dados serão inseridos em tempo de execução
-*/
-//package desafiocarnaval;
+ package com.winer.cursojava.estruturado.exer01;
 import java.util.Scanner;
 import java.util.InputMismatchException;
-
-/**
- *
- * @author aline
- */
-public class Prog9
+ 
+public class Argumentos
 {
 
     /**

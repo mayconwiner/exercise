@@ -1,4 +1,4 @@
-
+package com.winer.cursojava.estruturado.exer01;
 import javax.swing.JOptionPane;
 
 
@@ -13,7 +13,7 @@ Fazendo uma aplicação para inserção de nome e idade, sendo que esses
 dados serão inseridos em tempo de execução
 */
 import java.util.Scanner;
-public class Prog8{
+public class ScanerBasico{
     public static void main(String [] args){
  
         String nome;

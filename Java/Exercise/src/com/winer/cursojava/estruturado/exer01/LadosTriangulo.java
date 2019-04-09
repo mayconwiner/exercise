@@ -1,5 +1,5 @@
 //Faça um programa que peça ao usuário que informe os três lados de um triangulo.
-package IFTO;
+package com.winer.cursojava.estruturado.exer01;
 
 import java.util.Scanner;
 

@@ -1,3 +1,4 @@
+package com.winer.cursojava.estruturado.exer01;
 /*
 Exemplo de uma construção basica em Java
 
@@ -5,8 +6,8 @@ https://docs.oracle.com/javase/8/docs/api/ --> site java detalhamento de classes
 
 
 Trabalhando com variáveis do tipo caracter 
-*/
-public class Prog6{
+*/ 
+public class VariCaracter{
 
 
 

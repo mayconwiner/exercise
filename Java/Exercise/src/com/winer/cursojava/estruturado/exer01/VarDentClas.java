@@ -1,36 +1,41 @@
+package com.winer.cursojava.estruturado.exer01;
 /*
 Exemplo de uma construção basica em Java
 
 https://docs.oracle.com/javase/8/docs/api/ --> site java detalhamento de classes
 
 
-Aplicação em Java: Ver qual o valor padrão de inicialização das variaveis 
-primitivas.
-O programa dá erro porque as variáveis dos métodos não são inicializadas 
-automaticamente apenas as variáveis de classe;
+/*
+Aplicação em Java: Atribuição de uma variavel de um tipo a outra variavel de 
+outro tipo, ou seja fazendo casting
 */
-public class Prog2{
+public class VarDentClas{
     public static void main(String [] args){
-        
-        //Prog3 ab = new Prog3();
         //tipos inteiros
-        byte a1;
-        short a2;
-        int a3;
-        long a4;
+        byte a1 =67;
+        short a2 = 34;
+        int a3 = 1000;
+        long a4 = 10000;
         
         //tipos que aceitam ponto flutuante
-        float a5;
-        double a6;
+        float a5 = (float) 3.6;
+        double a6 = 300.0;
         
         //tipo caractere
-        char a7;
+        char a7 = 'B';
         
         //tipo booleano
-        boolean a8;
-             
+        boolean a8 = true;
+        
+        a2 = a1;
+        a1 = (byte) a2;
+        a4 = (long) a5;
+        a6 = (float) a3;
+        a4 = a7;
+        a1 = (byte) a6;
+        
         System.out.println("Os valor da variave a1 = "+a1);
-        System.out.println("Os valor da variave a2 = "+a2);
+        System.out.println("Os valor da variave a2 = "+(char)a2);
         System.out.println("Os valor da variave a3 = "+a3);
         System.out.println("Os valor da variave a4 = "+a4);
         System.out.println("Os valor da variave a5 = "+a5);

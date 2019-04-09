@@ -1,3 +1,5 @@
+package com.winer.cursojava.estruturado.exer01;
+
 /*
 Exemplo de uma construção basica em Java
 
@@ -9,7 +11,7 @@ transforme o primeiro caracter dessa palavra para maiúscula e a reapresente na 
 */
 import java.util.Scanner;
 
-public class Prog13{
+public class PrimCaracMaius{
     public static void main(String [] args){
         //Iniciando o objeto Scanner
         Scanner ler;

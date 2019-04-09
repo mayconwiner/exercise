@@ -1,18 +1,20 @@
+package com.winer.cursojava.estruturado.exer01;
+
 /*
 Exemplo de uma construção basica em Java
 
 https://docs.oracle.com/javase/8/docs/api/ --> site java detalhamento de classes
 
-
- Faça uma aplicação de triagem de contratação de funcionário no qual o usuário 
+/*
+ Faça uma aplicação de triagem de contratação de funcionário no qual o usuário
 informe o nome, sexo e idade. Como parâmetro para seleção o programa deverá 
-selecionar apenas usuários do sexo feminino que possuam idade igual ou inferior 
-a 25 anos. Se os dados informados obedecerem esse filtro o programa deverá 
+selecionar apenas usuários do sexo feminino que possuam idade igual ou inferior
+a 25 anos. Se os dados informados obedecerem esse filtro o programa deverá
 apresentar a mensagem "SELECIONADO PARA SEGUNDA FASE";
 */
 import java.util.Scanner;
 
-public class Prog6{
+public class SelecioFem{
     public static void main(String [] args){
         //Iniciando o objeto Scanner
         Scanner ler;
@@ -22,7 +24,7 @@ public class Prog6{
         
          //Iniciando o objeto Scanner
         ler = new Scanner(System.in);
-        
+       
         System.out.print("Informe o seu nome: ");
         nome = ler.nextLine();
         
@@ -30,9 +32,9 @@ public class Prog6{
         idade = ler.nextShort();
         
         System.out.print("Informe seu sexo M/F: ");
-        sexo = (ler.next().toUpperCase().charAt(0));
+        sexo = ler.next().charAt(0);
         
-        if((idade <= 25) && (sexo == 'F')){
+        if((idade <= 25) && ((sexo == 'F') || (sexo == 'f'))){
             System.out.println(nome + " - SELECIONADO PARA SEGUNDA FASE");
         }else{
             System.out.println(nome + " - NÃO SELECIONADO PARA SEGUNDA FASE");

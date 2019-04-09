@@ -1,3 +1,5 @@
+package com.winer.cursojava.estruturado.exer01;
+
 /*
 Exemplo de uma construção basica em Java
 
@@ -6,7 +8,7 @@ https://docs.oracle.com/javase/8/docs/api/ --> site java detalhamento de classes
 Faça uma aplicação no qual o usuário informa um número e o programa deverá informar se o número é positivo ou negativo e se o número é par ou impar.
  */
 import java.util.Scanner;
-public class Prog3{
+public class ImpPar{
     public static void main(String [] args){
         
         System.out.print("Digite um numero: ");

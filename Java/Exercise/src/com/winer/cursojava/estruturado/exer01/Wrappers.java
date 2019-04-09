@@ -1,4 +1,4 @@
-
+package com.winer.cursojava.estruturado.exer01;
 
 /*
 Exemplo de uma construção basica em Java
@@ -8,7 +8,7 @@ https://docs.oracle.com/javase/8/docs/api/ --> site java detalhamento de classes
 
 Manipulando tipos não primitivos Wrappers, atribuindo tipos primitivos a Wrappers
 */
-public class Prog7{
+public class Wrappers{
     public static void main(String [] args){
         //tipos inteiros
         byte a1 = 10;

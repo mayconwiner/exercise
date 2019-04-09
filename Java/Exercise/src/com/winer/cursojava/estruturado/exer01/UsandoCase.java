@@ -1,3 +1,5 @@
+package com.winer.cursojava.estruturado.exer01;
+
 /*
  https://docs.oracle.com/javase/8/docs/api/ --> site java detalhamento de classes
 
@@ -8,7 +10,7 @@
 
 import java.util.Scanner;
 
-public class Prog11 {
+public class UsandoCase {
 
     public static void main(String[] args) {
         //Iniciando o objeto Scanner

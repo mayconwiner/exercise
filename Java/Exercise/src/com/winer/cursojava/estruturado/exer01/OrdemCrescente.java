@@ -1,3 +1,5 @@
+package com.winer.cursojava.estruturado.exer01;
+
 /*
 https://docs.oracle.com/javase/8/docs/api/ --> site java detalhamento de classes
 
@@ -7,7 +9,7 @@ esses valores em ordem crescente
 */
 import java.util.Scanner;
 
-public class Prog9{
+public class OrdemCrescente{
     public static void main(String [] args){
         //Iniciando o objeto Scanner
         Scanner ler;

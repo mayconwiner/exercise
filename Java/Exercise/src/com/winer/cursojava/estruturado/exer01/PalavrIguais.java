@@ -1,3 +1,5 @@
+package com.winer.cursojava.estruturado.exer01;
+
 /*
 Exemplo de uma construção basica em Java
 
@@ -8,7 +10,7 @@ são iguais ou diferentes. Se forem iguais escreva iguais caso contrário escrev
 */
 import java.util.Scanner;
 
-public class Prog14{
+public class PalavrIguais{
     public static void main(String [] args){
         //Iniciando o objeto Scanner
         Scanner ler;
