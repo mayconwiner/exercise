@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Palestra Campos Palmas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+            .verde{color:green;}
+            #amarelo{background-color: yellow}
+        </style>
+</head>
+<body id="indextopo">
+    <img src="logoIfto.jpg" />
+    <a href="index.html">Home</a>
+    <a href="faleconosco.html">Fale conosco</a>
+    <a href="cursos.html">Cursos</a>
+    <hr>
+    <h1> Fale conosco</h1>
+    <form id=formulario autocomplete="off" action="" method="post" ></form>
+    <label for=nome>Nome(*): </label>
+    <input minlength="8" size=50 id=nome type=text name=nome placeholder="Digite seu nome">
+    <br>
+    <label for=email>Email(*): </label>
+    <input minlength="8" size=50 id=email type=text name=email placeholder="seuemail@gmail.com">
+    <br>
+    <label>
+            Telefone(*):
+            <input type="tel" name=telefone
+            pattern="\([0-9]{2}\)9[0-9]{4}-[0-9]{4}"
+            placeholder="(99)99999-9999" required>
+        </label>
+        <br>
+        <legend>Como nos conheceu:</legend>
+        <label>
+                <input type=radio name=opcao value=google  >Google
+                <input type=radio name=opcao value=televisao  >Televisao
+                <input type=radio name=opcao value=revista  >Revista
+        </label>
+        <p>Deesja receber nossos emails ?<input type="checkbox" name="opcao" value="emails"></p>
+        </fieldset>
+    <br>
+        <label>
+            Assunto da Mensagem:
+            <input list=nomesComuns form="Aformulario" size=5 type=text name=nome maxlength="10">
+        </label>
+        <datalist id=nomesComuns>
+                <option>Selecine o Assunto</option>
+                <option>Cores</option>
+                <option>Moodle</option>
+            </datalist>
+            <form id=Aformulario autocomplete=off method="GET" action="">
+    <p>Mensagem: </p>
+    <textarea maxlength="500" ></textarea> <br>
+    <input type="button" name="botao" value="Enviar" />
+    </form>
+    <br>
+
+
+    <a href="#indextopo">Ir para o topo</a>
+</body>
+</html>
